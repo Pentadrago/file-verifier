@@ -10,3 +10,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+/fileverifier-cli/build/
+/fileverifier-swing/build/
+/file-verifier-swing/build/
+/file-verifier-lib/build/
+/file-verifier-cli/build/
+/.nb-gradle/private/
+/.gradle

@@ -1,0 +1,8 @@
+dependencies {
+    compile project(':file-verifier-lib')
+    testCompile 'org.easytesting:fest-swing:1.2.1'
+}
+
+apply plugin: 'application'
+
+mainClassName = "com.github.pentadrago.fileverifier.swing.SwingFileVerifier"

@@ -1,0 +1,7 @@
+dependencies {
+    compile project(':file-verifier-lib')
+}
+
+apply plugin: 'application'
+
+mainClassName = "com.github.pentadrago.fileverifier.cli.FileVerifierCLI"
